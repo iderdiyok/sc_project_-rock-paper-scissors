@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+.btn-violet {
+    background: linear-gradient(to right, #C38EDC, #7FACFF);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+
+    &:hover{
+        background: linear-gradient(to right, #F3E5F5, #E1BEE7);
+        color: #5165ff;
+        transition: all .3s ease;
+    }
+}

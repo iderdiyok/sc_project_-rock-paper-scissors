@@ -1,0 +1,48 @@
+@import '_general';
+
+#home{
+    .beats{
+        animation: beatsRotate 1s ease-out 1s 1 normal none;
+    }
+    @keyframes beatsRotate {
+        0% {
+          transform: rotate(0);
+        }
+      
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+}
+#theGame{
+    .card {
+        background-color: #F3E5F5;
+        box-shadow: 0 5px 11px 0 rgba(252, 253, 255, 0.13),
+            0 4px 15px 0 rgba(255, 255, 255, 0.151);
+    }
+    
+    .block {
+        background-color: #E1BEE7;
+        border: none;
+        cursor: pointer;
+        padding: 10px 0px;
+        transition: all .3s ease;
+    }
+    
+    .block:nth-of-type(1):hover {
+        background-color: #F083A2;
+    }
+    
+    .block:nth-of-type(2):hover {
+        background-color: #C38EDC;
+    }
+    
+    .block:last-child:hover {
+        background-color: #7FACFF;
+    }
+}
+
+.modal-body {
+    background-color: #5165ff;
+}
+

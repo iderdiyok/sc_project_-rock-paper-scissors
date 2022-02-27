@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-violet {
+  background: linear-gradient(to right, #C38EDC, #7FACFF);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5em;
+}
+.btn-violet:hover {
+  background: linear-gradient(to right, #F3E5F5, #E1BEE7);
+  color: #5165ff;
+  transition: all 0.3s ease;
+}
+
+#home .beats {
+  -webkit-animation: beatsRotate 1s ease-out 1s 1 normal none;
+          animation: beatsRotate 1s ease-out 1s 1 normal none;
+}
+@-webkit-keyframes beatsRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes beatsRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#theGame .card {
+  background-color: #F3E5F5;
+  box-shadow: 0 5px 11px 0 rgba(252, 253, 255, 0.13), 0 4px 15px 0 rgba(255, 255, 255, 0.151);
+}
+#theGame .block {
+  background-color: #E1BEE7;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0px;
+  transition: all 0.3s ease;
+}
+#theGame .block:nth-of-type(1):hover {
+  background-color: #F083A2;
+}
+#theGame .block:nth-of-type(2):hover {
+  background-color: #C38EDC;
+}
+#theGame .block:last-child:hover {
+  background-color: #7FACFF;
+}
+
+.modal-body {
+  background-color: #5165ff;
+}/*# sourceMappingURL=style.css.map */
